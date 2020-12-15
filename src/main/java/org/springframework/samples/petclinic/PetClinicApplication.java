@@ -22,8 +22,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * PetClinic Spring Boot Application.
  *
- * @author Dave Syer
+ * <p> Before start application, you may run wro4j maven goal first <span>mvn wro4j:run</span>
  *
+ * @author Dave Syer
+ * @see <a href="https://github.com/spring-projects/spring-petclinic/issues/232">CSS missing</a>
  */
 @SpringBootApplication(proxyBeanMethods = false)
 public class PetClinicApplication {
